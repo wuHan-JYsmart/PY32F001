@@ -1,0 +1,445 @@
+###############################################################################
+#
+# IAR ELF Linker V9.20.1.318/W64 for ARM                  05/Apr/2024  21:29:45
+# Copyright 2007-2021 IAR Systems AB.
+#
+#    Output file  =
+#        E:\16-mlSys\19-WS2812\Templates\PY32F002Bxx_Templates\EWARM\PY32F002Bx5_Project\Exe\Project.out
+#    Map file     =
+#        E:\16-mlSys\19-WS2812\Templates\PY32F002Bxx_Templates\EWARM\PY32F002Bx5_Project\List\Project.map
+#    Command line =
+#        -f
+#        E:\16-mlSys\19-WS2812\Templates\PY32F002Bxx_Templates\EWARM\PY32F002Bx5_Project\Exe\Project.out.rsp
+#        (E:\16-mlSys\19-WS2812\Templates\PY32F002Bxx_Templates\EWARM\PY32F002Bx5_Project\Obj\exitGroup\eAdcDriver.o
+#        E:\16-mlSys\19-WS2812\Templates\PY32F002Bxx_Templates\EWARM\PY32F002Bx5_Project\Obj\exitGroup\eFlashOpt.o
+#        E:\16-mlSys\19-WS2812\Templates\PY32F002Bxx_Templates\EWARM\PY32F002Bx5_Project\Obj\exitGroup\eGpioNvic.o
+#        E:\16-mlSys\19-WS2812\Templates\PY32F002Bxx_Templates\EWARM\PY32F002Bx5_Project\Obj\exitGroup\eGpioOutput.o
+#        E:\16-mlSys\19-WS2812\Templates\PY32F002Bxx_Templates\EWARM\PY32F002Bx5_Project\Obj\exitGroup\eSpi1Driver.o
+#        E:\16-mlSys\19-WS2812\Templates\PY32F002Bxx_Templates\EWARM\PY32F002Bx5_Project\Obj\exitGroup\eTim6BaseDriver.o
+#        E:\16-mlSys\19-WS2812\Templates\PY32F002Bxx_Templates\EWARM\PY32F002Bx5_Project\Obj\exitGroup\eUsart1Driver.o
+#        E:\16-mlSys\19-WS2812\Templates\PY32F002Bxx_Templates\EWARM\PY32F002Bx5_Project\Obj\Example\User\main.o
+#        E:\16-mlSys\19-WS2812\Templates\PY32F002Bxx_Templates\EWARM\PY32F002Bx5_Project\Obj\Example\User\mPowerBusApp.o
+#        E:\16-mlSys\19-WS2812\Templates\PY32F002Bxx_Templates\EWARM\PY32F002Bx5_Project\Obj\Example\User\mWS2812.o
+#        E:\16-mlSys\19-WS2812\Templates\PY32F002Bxx_Templates\EWARM\PY32F002Bx5_Project\Obj\Drivers\PY32F002B_HAL_Driver\py32f002b_hal.o
+#        E:\16-mlSys\19-WS2812\Templates\PY32F002Bxx_Templates\EWARM\PY32F002Bx5_Project\Obj\Drivers\PY32F002B_HAL_Driver\py32f002b_hal_adc.o
+#        E:\16-mlSys\19-WS2812\Templates\PY32F002Bxx_Templates\EWARM\PY32F002Bx5_Project\Obj\Drivers\PY32F002B_HAL_Driver\py32f002b_hal_comp.o
+#        E:\16-mlSys\19-WS2812\Templates\PY32F002Bxx_Templates\EWARM\PY32F002Bx5_Project\Obj\Drivers\PY32F002B_HAL_Driver\py32f002b_hal_cortex.o
+#        E:\16-mlSys\19-WS2812\Templates\PY32F002Bxx_Templates\EWARM\PY32F002Bx5_Project\Obj\Drivers\PY32F002B_HAL_Driver\py32f002b_hal_crc.o
+#        E:\16-mlSys\19-WS2812\Templates\PY32F002Bxx_Templates\EWARM\PY32F002Bx5_Project\Obj\Drivers\PY32F002B_HAL_Driver\py32f002b_hal_exti.o
+#        E:\16-mlSys\19-WS2812\Templates\PY32F002Bxx_Templates\EWARM\PY32F002Bx5_Project\Obj\Drivers\PY32F002B_HAL_Driver\py32f002b_hal_flash.o
+#        E:\16-mlSys\19-WS2812\Templates\PY32F002Bxx_Templates\EWARM\PY32F002Bx5_Project\Obj\Drivers\PY32F002B_HAL_Driver\py32f002b_hal_gpio.o
+#        E:\16-mlSys\19-WS2812\Templates\PY32F002Bxx_Templates\EWARM\PY32F002Bx5_Project\Obj\Drivers\PY32F002B_HAL_Driver\py32f002b_hal_i2c.o
+#        E:\16-mlSys\19-WS2812\Templates\PY32F002Bxx_Templates\EWARM\PY32F002Bx5_Project\Obj\Drivers\PY32F002B_HAL_Driver\py32f002b_hal_iwdg.o
+#        E:\16-mlSys\19-WS2812\Templates\PY32F002Bxx_Templates\EWARM\PY32F002Bx5_Project\Obj\Drivers\PY32F002B_HAL_Driver\py32f002b_hal_lptim.o
+#        E:\16-mlSys\19-WS2812\Templates\PY32F002Bxx_Templates\EWARM\PY32F002Bx5_Project\Obj\Example\User\py32f002b_hal_msp.o
+#        E:\16-mlSys\19-WS2812\Templates\PY32F002Bxx_Templates\EWARM\PY32F002Bx5_Project\Obj\Drivers\PY32F002B_HAL_Driver\py32f002b_hal_pwr.o
+#        E:\16-mlSys\19-WS2812\Templates\PY32F002Bxx_Templates\EWARM\PY32F002Bx5_Project\Obj\Drivers\PY32F002B_HAL_Driver\py32f002b_hal_rcc.o
+#        E:\16-mlSys\19-WS2812\Templates\PY32F002Bxx_Templates\EWARM\PY32F002Bx5_Project\Obj\Drivers\PY32F002B_HAL_Driver\py32f002b_hal_rcc_ex.o
+#        E:\16-mlSys\19-WS2812\Templates\PY32F002Bxx_Templates\EWARM\PY32F002Bx5_Project\Obj\Drivers\PY32F002B_HAL_Driver\py32f002b_hal_spi.o
+#        E:\16-mlSys\19-WS2812\Templates\PY32F002Bxx_Templates\EWARM\PY32F002Bx5_Project\Obj\Drivers\PY32F002B_HAL_Driver\py32f002b_hal_tim.o
+#        E:\16-mlSys\19-WS2812\Templates\PY32F002Bxx_Templates\EWARM\PY32F002Bx5_Project\Obj\Drivers\PY32F002B_HAL_Driver\py32f002b_hal_tim_ex.o
+#        E:\16-mlSys\19-WS2812\Templates\PY32F002Bxx_Templates\EWARM\PY32F002Bx5_Project\Obj\Drivers\PY32F002B_HAL_Driver\py32f002b_hal_uart.o
+#        E:\16-mlSys\19-WS2812\Templates\PY32F002Bxx_Templates\EWARM\PY32F002Bx5_Project\Obj\Drivers\PY32F002B_HAL_Driver\py32f002b_hal_usart.o
+#        E:\16-mlSys\19-WS2812\Templates\PY32F002Bxx_Templates\EWARM\PY32F002Bx5_Project\Obj\Example\User\py32f002b_it.o
+#        E:\16-mlSys\19-WS2812\Templates\PY32F002Bxx_Templates\EWARM\PY32F002Bx5_Project\Obj\Drivers\PY32F002B_HAL_Driver\py32f002b_ll_adc.o
+#        E:\16-mlSys\19-WS2812\Templates\PY32F002Bxx_Templates\EWARM\PY32F002Bx5_Project\Obj\Drivers\PY32F002B_HAL_Driver\py32f002b_ll_comp.o
+#        E:\16-mlSys\19-WS2812\Templates\PY32F002Bxx_Templates\EWARM\PY32F002Bx5_Project\Obj\Drivers\PY32F002B_HAL_Driver\py32f002b_ll_crc.o
+#        E:\16-mlSys\19-WS2812\Templates\PY32F002Bxx_Templates\EWARM\PY32F002Bx5_Project\Obj\Drivers\PY32F002B_HAL_Driver\py32f002b_ll_exti.o
+#        E:\16-mlSys\19-WS2812\Templates\PY32F002Bxx_Templates\EWARM\PY32F002Bx5_Project\Obj\Drivers\PY32F002B_HAL_Driver\py32f002b_ll_gpio.o
+#        E:\16-mlSys\19-WS2812\Templates\PY32F002Bxx_Templates\EWARM\PY32F002Bx5_Project\Obj\Drivers\PY32F002B_HAL_Driver\py32f002b_ll_i2c.o
+#        E:\16-mlSys\19-WS2812\Templates\PY32F002Bxx_Templates\EWARM\PY32F002Bx5_Project\Obj\Drivers\PY32F002B_HAL_Driver\py32f002b_ll_lptim.o
+#        E:\16-mlSys\19-WS2812\Templates\PY32F002Bxx_Templates\EWARM\PY32F002Bx5_Project\Obj\Drivers\PY32F002B_HAL_Driver\py32f002b_ll_pwr.o
+#        E:\16-mlSys\19-WS2812\Templates\PY32F002Bxx_Templates\EWARM\PY32F002Bx5_Project\Obj\Drivers\PY32F002B_HAL_Driver\py32f002b_ll_rcc.o
+#        E:\16-mlSys\19-WS2812\Templates\PY32F002Bxx_Templates\EWARM\PY32F002Bx5_Project\Obj\Drivers\PY32F002B_HAL_Driver\py32f002b_ll_spi.o
+#        E:\16-mlSys\19-WS2812\Templates\PY32F002Bxx_Templates\EWARM\PY32F002Bx5_Project\Obj\Drivers\PY32F002B_HAL_Driver\py32f002b_ll_tim.o
+#        E:\16-mlSys\19-WS2812\Templates\PY32F002Bxx_Templates\EWARM\PY32F002Bx5_Project\Obj\Drivers\PY32F002B_HAL_Driver\py32f002b_ll_usart.o
+#        E:\16-mlSys\19-WS2812\Templates\PY32F002Bxx_Templates\EWARM\PY32F002Bx5_Project\Obj\Example\EWARM\startup_py32f002bxx.o
+#        E:\16-mlSys\19-WS2812\Templates\PY32F002Bxx_Templates\EWARM\PY32F002Bx5_Project\Obj\Drivers\CMSIS\system_py32f002b.o
+#        --no_out_extension -o
+#        E:\16-mlSys\19-WS2812\Templates\PY32F002Bxx_Templates\EWARM\PY32F002Bx5_Project\Exe\Project.out
+#        --map
+#        E:\16-mlSys\19-WS2812\Templates\PY32F002Bxx_Templates\EWARM\PY32F002Bx5_Project\List\Project.map
+#        --config
+#        E:\16-mlSys\19-WS2812\Templates\PY32F002Bxx_Templates\EWARM\py32f002bx5_flash.icf
+#        --semihosting --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__CPP_Runtime   = 1
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x800'0000 { ro section .intvec };
+"P1":  place in [from 0x800'0000 to 0x800'5fff] { ro };
+define block CSTACK with size = 1K, alignment = 8 { };
+define block HEAP with size = 0, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'0bff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind         Address    Size  Object
+  -------            ----         -------    ----  ------
+"A0":                                        0xc0
+  .intvec            ro code   0x800'0000    0xc0  startup_py32f002bxx.o [3]
+                             - 0x800'00c0    0xc0
+
+"P1":                                      0x1ac6
+  .text              ro code   0x800'00c0   0x5a0  py32f002b_hal_rcc.o [2]
+  .text              ro code   0x800'0660     0xc  py32f002b_hal.o [2]
+  .text              ro code   0x800'066c    0x64  py32f002b_hal.o [2]
+  .text              ro code   0x800'06d0    0x34  ABImemcpy.o [7]
+  .text              ro code   0x800'0704    0xe0  I32DivModFast.o [7]
+  .text              ro code   0x800'07e4    0xf4  py32f002b_hal_cortex.o [2]
+  .text              ro code   0x800'08d8     0x2  IntDivZer.o [7]
+  .text              ro code   0x800'08da     0x2  startup_py32f002bxx.o [3]
+  .text              ro code   0x800'08dc   0x4a6  py32f002b_hal_spi.o [2]
+  .text              ro code   0x800'0d82     0x2  startup_py32f002bxx.o [3]
+  .text              ro code   0x800'0d84   0x114  eSpi1Driver.o [5]
+  .text              ro code   0x800'0e98     0x2  py32f002b_hal_spi.o [2]
+  .text              ro code   0x800'0e9a     0x2  startup_py32f002bxx.o [3]
+  .text              ro code   0x800'0e9c   0x21c  py32f002b_hal_gpio.o [2]
+  .text              ro code   0x800'10b8    0xa0  main.o [4]
+  .text              ro code   0x800'1158     0x2  py32f002b_hal_gpio.o [2]
+  .text              ro code   0x800'115a     0x2  startup_py32f002bxx.o [3]
+  .text              ro code   0x800'115c    0x6c  eGpioOutput.o [5]
+  .text              ro code   0x800'11c8    0x1e  py32f002b_hal.o [2]
+  .text              ro code   0x800'11e6     0x2  startup_py32f002bxx.o [3]
+  .text              ro code   0x800'11e8   0x160  mWS2812.o [4]
+  .text              ro code   0x800'1348    0x2c  py32f002b_hal.o [2]
+  .text              ro code   0x800'1374    0x14  memset.o [7]
+  .text              ro code   0x800'1388    0x34  py32f002b_hal_msp.o [4]
+  .text              ro code   0x800'13bc    0x4e  ABImemset.o [7]
+  .text              ro code   0x800'140a     0x2  startup_py32f002bxx.o [3]
+  .text              ro code   0x800'140c   0x2ec  py32f002b_hal_uart.o [2]
+  .text              ro code   0x800'16f8     0x2  py32f002b_hal_uart.o [2]
+  .text              ro code   0x800'16fa     0x2  startup_py32f002bxx.o [3]
+  .text              ro code   0x800'16fc    0x64  eUsart1Driver.o [5]
+  .text              ro code   0x800'1760   0x1ac  py32f002b_hal_tim.o [2]
+  .text              ro code   0x800'190c     0x2  py32f002b_hal_tim.o [2]
+  .text              ro code   0x800'190e     0x2  py32f002b_hal_tim.o [2]
+  .text              ro code   0x800'1910     0x2  py32f002b_hal_tim.o [2]
+  .text              ro code   0x800'1912     0x2  startup_py32f002bxx.o [3]
+  .text              ro code   0x800'1914    0x1c  eTim6BaseDriver.o [5]
+  .text              ro code   0x800'1930     0x2  py32f002b_hal_tim_ex.o [2]
+  .text              ro code   0x800'1932     0x2  py32f002b_hal_tim.o [2]
+  .text              ro code   0x800'1934     0x2  py32f002b_hal_tim_ex.o [2]
+  .text              ro code   0x800'1938    0x64  system_py32f002b.o [1]
+  .rodata            const     0x800'199c    0x40  system_py32f002b.o [1]
+  .text              ro code   0x800'19dc    0x3c  zero_init3.o [7]
+  .text              ro code   0x800'1a18    0x30  copy_init3.o [7]
+  .text              ro code   0x800'1a48    0x28  data_init.o [7]
+  .text              ro code   0x800'1a70    0x26  py32f002b_it.o [4]
+  .text              ro code   0x800'1a98    0x18  py32f002b_hal.o [2]
+  .iar.init_table    const     0x800'1ab0    0x24  - Linker created -
+  .rodata            const     0x800'1ad4    0x20  py32f002b_hal_rcc.o [2]
+  .text              ro code   0x800'1af4    0x1e  cmain.o [7]
+  .text              ro code   0x800'1b12     0x4  low_level_init.o [6]
+  .text              ro code   0x800'1b16     0x8  exit.o [6]
+  .text              ro code   0x800'1b20     0xa  cexit.o [7]
+  .text              ro code   0x800'1b2c    0x14  exit.o [8]
+  .text              ro code   0x800'1b40    0x1c  cstartup_M.o [7]
+  .text              ro code   0x800'1b5c    0x10  startup_py32f002bxx.o [3]
+  Initializer bytes  const     0x800'1b6c    0x10  <for P2-1>
+  .text              ro code   0x800'1b7c     0xa  eGpioNvic.o [5]
+  .rodata            const     0x800'1b86     0x0  zero_init3.o [7]
+  .rodata            const     0x800'1b86     0x0  copy_init3.o [7]
+                             - 0x800'1b86  0x1ac6
+
+"P2", part 1 of 3:                           0x10
+  P2-1                        0x2000'0000     0xf  <Init block>
+    .data            inited   0x2000'0000     0x4  py32f002b_hal.o [2]
+    .data            inited   0x2000'0004     0x4  py32f002b_hal.o [2]
+    .data            inited   0x2000'0008     0x4  system_py32f002b.o [1]
+    .data            inited   0x2000'000c     0x2  main.o [4]
+    .data            inited   0x2000'000e     0x1  main.o [4]
+                            - 0x2000'000f     0xf
+
+"P2", part 2 of 3:                          0x314
+  .bss               zero     0x2000'0010   0x15c  mWS2812.o [4]
+  .bss               zero     0x2000'016c   0x104  eUsart1Driver.o [5]
+  .bss               zero     0x2000'0270    0x44  eSpi1Driver.o [5]
+  .bss               zero     0x2000'02b4    0x44  eUsart1Driver.o [5]
+  .bss               zero     0x2000'02f8    0x20  eTim6BaseDriver.o [5]
+  .bss               zero     0x2000'0318     0x4  eTim6BaseDriver.o [5]
+  .bss               zero     0x2000'031c     0x4  py32f002b_hal.o [2]
+  .bss               zero     0x2000'0320     0x1  eUsart1Driver.o [5]
+  .bss               zero     0x2000'0321     0x1  mWS2812.o [4]
+                            - 0x2000'0322   0x312
+
+"P2", part 3 of 3:                          0x400
+  CSTACK                      0x2000'0328   0x400  <Block>
+    CSTACK           uninit   0x2000'0328   0x400  <Block tail>
+                            - 0x2000'0728   0x400
+
+Unused ranges:
+
+         From           To    Size
+         ----           --    ----
+   0x800'1b86   0x800'5fff  0x447a
+  0x2000'0324  0x2000'0327     0x4
+  0x2000'0728  0x2000'0bff   0x4d8
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x312:
+          0x2000'0010  0x312
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x10 (106% of destination):
+           0x800'1b6c   0x10
+    1 destination range, total size 0xf:
+          0x2000'0000    0xf
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+command line/config:
+    -------------------------------------------------
+    Total:
+
+E:\16-mlSys\19-WS2812\Templates\PY32F002Bxx_Templates\EWARM\PY32F002Bx5_Project\Obj\Drivers\CMSIS: [1]
+    system_py32f002b.o          100       68        4
+    -------------------------------------------------
+    Total:                      100       68        4
+
+E:\16-mlSys\19-WS2812\Templates\PY32F002Bxx_Templates\EWARM\PY32F002Bx5_Project\Obj\Drivers\PY32F002B_HAL_Driver: [2]
+    py32f002b_hal.o             210        8       12
+    py32f002b_hal_cortex.o      244
+    py32f002b_hal_gpio.o        542
+    py32f002b_hal_rcc.o       1'440       32
+    py32f002b_hal_spi.o       1'192
+    py32f002b_hal_tim.o         436
+    py32f002b_hal_tim_ex.o        4
+    py32f002b_hal_uart.o        750
+    -------------------------------------------------
+    Total:                    4'818       40       12
+
+E:\16-mlSys\19-WS2812\Templates\PY32F002Bxx_Templates\EWARM\PY32F002Bx5_Project\Obj\Example\EWARM: [3]
+    startup_py32f002bxx.o       224
+    -------------------------------------------------
+    Total:                      224
+
+E:\16-mlSys\19-WS2812\Templates\PY32F002Bxx_Templates\EWARM\PY32F002Bx5_Project\Obj\Example\User: [4]
+    mWS2812.o                   352               349
+    main.o                      160        3        3
+    py32f002b_hal_msp.o          52
+    py32f002b_it.o               38
+    -------------------------------------------------
+    Total:                      602        3      352
+
+E:\16-mlSys\19-WS2812\Templates\PY32F002Bxx_Templates\EWARM\PY32F002Bx5_Project\Obj\exitGroup: [5]
+    eGpioNvic.o                  10
+    eGpioOutput.o               108
+    eSpi1Driver.o               276                68
+    eTim6BaseDriver.o            28                36
+    eUsart1Driver.o             100               329
+    -------------------------------------------------
+    Total:                      522               433
+
+dl6M_tln.a: [6]
+    exit.o                        8
+    low_level_init.o              4
+    -------------------------------------------------
+    Total:                       12
+
+rt6M_tl.a: [7]
+    ABImemcpy.o                  52
+    ABImemset.o                  78
+    I32DivModFast.o             224
+    IntDivZer.o                   2
+    cexit.o                      10
+    cmain.o                      30
+    copy_init3.o                 48
+    cstartup_M.o                 28
+    data_init.o                  40
+    memset.o                     20
+    zero_init3.o                 60
+    -------------------------------------------------
+    Total:                      592
+
+shb_l.a: [8]
+    exit.o                       20
+    -------------------------------------------------
+    Total:                       20
+
+    Gaps                          8
+    Linker created                        37    1'024
+-----------------------------------------------------
+    Grand Total:              6'898      148    1'825
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base    0x800'1ab0          --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'1ad4          --   Gb  - Linker created -
+?main                    0x800'1af5         Code  Gb  cmain.o [7]
+ADC_COMP_IRQHandler      0x800'1a95    0x2  Code  Gb  py32f002b_it.o [4]
+AHBPrescTable            0x800'199c   0x40  Data  Gb  system_py32f002b.o [1]
+APP_ErrorHandler         0x800'1155    0x4  Code  Gb  main.o [4]
+APP_SystemClockConfig    0x800'10e9   0x60  Code  Lc  main.o [4]
+CSTACK$$Base            0x2000'0328          --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'0728          --   Gb  - Linker created -
+DelayTime                0x800'196b   0x16  Code  Lc  system_py32f002b.o [1]
+EXTI4_15_IRQHandler      0x800'1b7d    0xa  Code  Gb  eGpioNvic.o [5]
+HAL_Delay                0x800'1349   0x2c  Code  Wk  py32f002b_hal.o [2]
+HAL_GPIO_EXTI_IRQHandler
+                         0x800'107b   0x22  Code  Gb  py32f002b_hal_gpio.o [2]
+HAL_GPIO_Init            0x800'0e9d  0x1c4  Code  Gb  py32f002b_hal_gpio.o [2]
+HAL_GPIO_WritePin        0x800'1061   0x1a  Code  Gb  py32f002b_hal_gpio.o [2]
+HAL_GetTick              0x800'0661    0xc  Code  Wk  py32f002b_hal.o [2]
+HAL_IncTick              0x800'1a99   0x18  Code  Wk  py32f002b_hal.o [2]
+HAL_Init                 0x800'11c9   0x1e  Code  Gb  py32f002b_hal.o [2]
+HAL_InitTick             0x800'066d   0x64  Code  Wk  py32f002b_hal.o [2]
+HAL_MspInit              0x800'1389   0x34  Code  Gb  py32f002b_hal_msp.o [4]
+HAL_NVIC_SetPriority     0x800'08a3   0x14  Code  Gb  py32f002b_hal_cortex.o [2]
+HAL_RCC_ClockConfig      0x800'0405  0x16c  Code  Gb  py32f002b_hal_rcc.o [2]
+HAL_RCC_GetSysClockFreq
+                         0x800'057d   0xa8  Code  Gb  py32f002b_hal_rcc.o [2]
+HAL_RCC_OscConfig        0x800'00c1  0x31c  Code  Gb  py32f002b_hal_rcc.o [2]
+HAL_SPI_DeInit           0x800'097d   0x36  Code  Gb  py32f002b_hal_spi.o [2]
+HAL_SPI_Init             0x800'08dd   0xa0  Code  Gb  py32f002b_hal_spi.o [2]
+HAL_SPI_MspInit          0x800'0d85   0x94  Code  Gb  eSpi1Driver.o [5]
+HAL_SPI_Transmit         0x800'09b3  0x1d6  Code  Gb  py32f002b_hal_spi.o [2]
+HAL_SYSTICK_Config       0x800'08b7    0xc  Code  Gb  py32f002b_hal_cortex.o [2]
+HAL_TIMEx_BreakCallback
+                         0x800'1931    0x2  Code  Wk  py32f002b_hal_tim_ex.o [2]
+HAL_TIMEx_CommutCallback
+                         0x800'1935    0x2  Code  Wk  py32f002b_hal_tim_ex.o [2]
+HAL_TIM_IRQHandler       0x800'1761  0x1ac  Code  Gb  py32f002b_hal_tim.o [2]
+HAL_TIM_PeriodElapsedCallback
+                         0x800'1915    0xa  Code  Gb  eTim6BaseDriver.o [5]
+HAL_TIM_PeriodElapsedCallback::runTim
+                        0x2000'0318    0x4  Data  Lc  eTim6BaseDriver.o [5]
+HAL_UART_IRQHandler      0x800'147d  0x13e  Code  Gb  py32f002b_hal_uart.o [2]
+HAL_UART_IdleFrameDetectCpltCallback
+                         0x800'16fd    0xe  Code  Gb  eUsart1Driver.o [5]
+HAL_UART_Receive_IT      0x800'140d   0x70  Code  Gb  py32f002b_hal_uart.o [2]
+HAL_UART_RxCpltCallback
+                         0x800'170b   0x3a  Code  Gb  eUsart1Driver.o [5]
+HAL_UART_TxCpltCallback
+                         0x800'1745    0xc  Code  Gb  eUsart1Driver.o [5]
+HardFault_Handler        0x800'1a73    0x4  Code  Gb  py32f002b_it.o [4]
+NMI_Handler              0x800'1a71    0x2  Code  Gb  py32f002b_it.o [4]
+NVIC_SetPriority         0x800'07e5   0x8c  Code  Lc  py32f002b_hal_cortex.o [2]
+PendSV_Handler           0x800'1a79    0x2  Code  Gb  py32f002b_it.o [4]
+Region$$Table$$Base      0x800'1ab0          --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'1ad4          --   Gb  - Linker created -
+SPI_EndRxTxTransaction   0x800'0d19   0x6a  Code  Lc  py32f002b_hal_spi.o [2]
+SPI_WaitFifoStateUntilTimeout
+                         0x800'0c45   0xd0  Code  Lc  py32f002b_hal_spi.o [2]
+SPI_WaitFlagStateUntilTimeout
+                         0x800'0b8d   0xb8  Code  Lc  py32f002b_hal_spi.o [2]
+SVC_Handler              0x800'1a77    0x2  Code  Gb  py32f002b_it.o [4]
+SysTick_Config           0x800'0871   0x32  Code  Lc  py32f002b_hal_cortex.o [2]
+SysTick_Handler          0x800'1a7b    0x8  Code  Gb  py32f002b_it.o [4]
+SystemCoreClock         0x2000'0008    0x4  Data  Gb  system_py32f002b.o [1]
+SystemInit               0x800'1939   0x32  Code  Gb  system_py32f002b.o [1]
+TIM14_IRQHandler         0x800'191f    0xa  Code  Gb  eTim6BaseDriver.o [5]
+TIM1_BRK_UP_TRG_COM_IRQHandler
+                         0x800'1a83    0x2  Code  Gb  py32f002b_it.o [4]
+TimHandle14             0x2000'02f8   0x20  Data  Gb  eTim6BaseDriver.o [5]
+UART_EndRxTransfer       0x800'15bb   0x20  Code  Lc  py32f002b_hal_uart.o [2]
+UART_EndTransmit_IT      0x800'1649   0x20  Code  Lc  py32f002b_hal_uart.o [2]
+UART_Receive_IT          0x800'1669   0x86  Code  Lc  py32f002b_hal_uart.o [2]
+UART_Transmit_IT         0x800'15db   0x6e  Code  Lc  py32f002b_hal_uart.o [2]
+USART1_IRQHandler        0x800'1a85    0xa  Code  Gb  py32f002b_it.o [4]
+UartHandle              0x2000'02b4   0x44  Data  Gb  eUsart1Driver.o [5]
+__ICFEDIT_region_RAM_end__ {Abs}
+                        0x2000'0bff         Data  Gb  <internal module>
+__ICFEDIT_region_RAM_start__ {Abs}
+                        0x2000'0000         Data  Gb  <internal module>
+__aeabi_idiv             0x800'0731         Code  Gb  I32DivModFast.o [7]
+__aeabi_idiv0            0x800'08d9         Code  Gb  IntDivZer.o [7]
+__aeabi_idivmod          0x800'0731         Code  Gb  I32DivModFast.o [7]
+__aeabi_memcpy4          0x800'06d1         Code  Gb  ABImemcpy.o [7]
+__aeabi_memcpy8          0x800'06d1         Code  Gb  ABImemcpy.o [7]
+__aeabi_memset           0x800'13bd         Code  Gb  ABImemset.o [7]
+__aeabi_uidiv            0x800'0737         Code  Gb  I32DivModFast.o [7]
+__aeabi_uidivmod         0x800'0737         Code  Gb  I32DivModFast.o [7]
+__cmain                  0x800'1af5         Code  Gb  cmain.o [7]
+__exit                   0x800'1b2d   0x14  Code  Gb  exit.o [8]
+__iar_Memset4_word       0x800'13dd         Code  Gb  ABImemset.o [7]
+__iar_Memset_word        0x800'13c9         Code  Gb  ABImemset.o [7]
+__iar_copy_init3         0x800'1a19   0x30  Code  Gb  copy_init3.o [7]
+__iar_data_init3         0x800'1a49   0x28  Code  Gb  data_init.o [7]
+__iar_program_start      0x800'1b41         Code  Gb  cstartup_M.o [7]
+__iar_zero_init3         0x800'19dd   0x3c  Code  Gb  zero_init3.o [7]
+__low_level_init         0x800'1b13    0x4  Code  Gb  low_level_init.o [6]
+__vector_table           0x800'0000         Data  Gb  startup_py32f002bxx.o [3]
+_call_main               0x800'1b01         Code  Gb  cmain.o [7]
+_exit                    0x800'1b21         Code  Gb  cexit.o [7]
+add                     0x2000'0321    0x1  Data  Gb  mWS2812.o [4]
+eGpioOutputInit          0x800'115d   0x60  Code  Gb  eGpioOutput.o [5]
+eSpi1DriverInit          0x800'0e91    0x8  Code  Gb  eSpi1Driver.o [5]
+eSpiDmaSend              0x800'0e19   0x18  Code  Gb  eSpi1Driver.o [5]
+exit                     0x800'1b17    0x8  Code  Gb  exit.o [6]
+exitGroupInit            0x800'10b9    0xc  Code  Gb  main.o [4]
+iSpi1RegInit             0x800'0e31   0x4a  Code  Gb  eSpi1Driver.o [5]
+isUsart1Rbuf            0x2000'016c  0x104  Data  Gb  eUsart1Driver.o [5]
+main                     0x800'10c5   0x24  Code  Gb  main.o [4]
+memset                   0x800'1375   0x14  Code  Gb  memset.o [7]
+power                   0x2000'000e    0x1  Data  Lc  main.o [4]
+rByte                   0x2000'0320    0x1  Data  Gb  eUsart1Driver.o [5]
+setDelay                0x2000'000c    0x2  Data  Lc  main.o [4]
+spi1Handle              0x2000'0270   0x44  Data  Gb  eSpi1Driver.o [5]
+uwTick                  0x2000'031c    0x4  Data  Gb  py32f002b_hal.o [2]
+uwTickFreq              0x2000'0004    0x4  Data  Gb  py32f002b_hal.o [2]
+uwTickPrio              0x2000'0000    0x4  Data  Gb  py32f002b_hal.o [2]
+ws2812ShowOnePoint       0x800'130b   0x36  Code  Gb  mWS2812.o [4]
+ws2812_buffer           0x2000'0010  0x15c  Data  Gb  mWS2812.o [4]
+ws2812_init              0x800'11e9   0x14  Code  Gb  mWS2812.o [4]
+ws2812_pixel             0x800'120b   0x7e  Code  Gb  mWS2812.o [4]
+ws2812_pixel_all         0x800'1289   0x82  Code  Gb  mWS2812.o [4]
+ws2812_send_spi          0x800'11fd    0xe  Code  Gb  mWS2812.o [4]
+
+
+[1] = E:\16-mlSys\19-WS2812\Templates\PY32F002Bxx_Templates\EWARM\PY32F002Bx5_Project\Obj\Drivers\CMSIS
+[2] = E:\16-mlSys\19-WS2812\Templates\PY32F002Bxx_Templates\EWARM\PY32F002Bx5_Project\Obj\Drivers\PY32F002B_HAL_Driver
+[3] = E:\16-mlSys\19-WS2812\Templates\PY32F002Bxx_Templates\EWARM\PY32F002Bx5_Project\Obj\Example\EWARM
+[4] = E:\16-mlSys\19-WS2812\Templates\PY32F002Bxx_Templates\EWARM\PY32F002Bx5_Project\Obj\Example\User
+[5] = E:\16-mlSys\19-WS2812\Templates\PY32F002Bxx_Templates\EWARM\PY32F002Bx5_Project\Obj\exitGroup
+[6] = dl6M_tln.a
+[7] = rt6M_tl.a
+[8] = shb_l.a
+
+  6'898 bytes of readonly  code memory
+    148 bytes of readonly  data memory
+  1'825 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
